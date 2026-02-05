@@ -34,24 +34,6 @@ class Cliente:
 
         return clientes[self.id]["nombre"] == self.name
 
-    def crearCuenta(self):
-        if not self._cedulaValida():
-            raise Exception("Cédula no válida")
-
-        with open("Cuentas.json", "r") as f:
-            data = json.load(f)
-
-        if self.id in data:
-            raise Exception("El cliente ya tiene cuenta")
-
-        data[self.id] = {
-            "ahorro": {},
-            "corriente": {},
-            "cdt": {}
-        }
-
-        with open("Cuentas.json", "w") as f:
-            json.dump(data, f, indent=4)
 
     def getid(self):
         return self.id
