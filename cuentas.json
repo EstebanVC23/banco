@@ -1,0 +1,51 @@
+{
+    "1023456789": {
+        "ahorro": {
+            "saldo": 1000000.0,
+            "fechaCreacion": "2024-10-10T09:30:00"
+        },
+        "corriente": {
+            "saldo": 500000,
+            "fechaCreacion": "2024-10-10T09:35:00"
+        }
+    },
+    "987654321": {
+        "ahorro": {
+            "saldo": 300000,
+            "fechaCreacion": "2024-11-01T14:20:00"
+        },
+        "corriente": {
+            "saldo": 1000000,
+            "fechaCreacion": "2024-11-01T14:25:00"
+        }
+    },
+    "1122334455": {
+        "ahorro": {
+            "saldo": 0,
+            "fechaCreacion": "2024-12-05T10:00:00"
+        }
+    },
+    "556677889": {
+        "corriente": {
+            "saldo": 250000,
+            "fechaCreacion": "2024-12-20T16:45:00"
+        }
+    },
+    "3344556677": {
+        "ahorro": {
+            "saldo": 800500.0,
+            "fechaCreacion": "2025-01-02T08:15:00",
+            "ultimoInteres": "2026-02-04T15:42:11.607819"
+        },
+        "corriente": {
+            "saldo": 1200500.0,
+            "fechaCreacion": "2025-01-02T08:20:00"
+        },
+        "cdt": {
+            "saldo": 30000.0,
+            "fechaCreacion": "2026-02-04T15:33:32.387771",
+            "plazoMeses": 3,
+            "tasaInteres": 0.09074970796944917
+        }
+    }
+}
