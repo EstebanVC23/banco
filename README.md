@@ -6,7 +6,7 @@ Aplicación bancaria sencilla desarrollada en **Python** con interfaz gráfica u
 
 - **banco.py**  
   Archivo principal del sistema. Contiene la interfaz gráfica y controla el flujo de la aplicación.  
-  👉 **Este es el archivo que se debe ejecutar.**
+  **Este es el archivo que se debe ejecutar.**
 
 - **cuentas.py**  
   Maneja la lógica del cliente y las operaciones bancarias (ingresos, retiros y CDT).
@@ -19,8 +19,3 @@ Aplicación bancaria sencilla desarrollada en **Python** con interfaz gráfica u
 
 - **Cuentas.json**  
   Guarda la información de cuentas, saldos, fechas e intereses.
-
-## Ejecución
-
-```bash
-python banco.py
