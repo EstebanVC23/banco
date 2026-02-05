@@ -1,0 +1,47 @@
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Variables de entorno ---
+.env
+.env.*
+!.env.example
+
+# --- Dependencias ---
+node_modules/
+vendor/
+
+# --- Build / dist ---
+dist/
+build/
+out/
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Archivos temporales ---
+tmp/
+temp/
+
+# --- Coverage ---
+coverage/
+
+# --- Archivos sensibles ---
+*.key
+*.pem
+*.crt
+*.sqlite
+*.db
+
+# --- Otros ---
+.cache/
